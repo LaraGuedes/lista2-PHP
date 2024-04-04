@@ -8,12 +8,12 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #ffe7f6;
             margin: 0;
             padding: 0;
         }
         .titulo{
-            background-color: black;
+            background-color: #ff009c;
             padding: 10px 0;
             height: 60px; 
             
@@ -45,7 +45,7 @@
             border-radius: 3px;
         }
         input[type="submit"] {
-            background-color: black;
+            background-color: #ff009c;
             color: #fff;
             border: none;
             padding: 10px 20px;

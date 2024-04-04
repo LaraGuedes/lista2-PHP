@@ -5,11 +5,11 @@
             $msgErro = $msgErro . "<FONT color=blue> Informe o coeficiente <b>a</b> (valor que acompanha o x):<br></FONT>";
         }
 
-        if (empty($b)) {
+        if ($b === null or empty($b)) {
             $msgErro = $msgErro . "<FONT color=blue> Informe o coeficiente <b>b</b> (valor que acompanha o y):<br></FONT>";
         }
 
-        if (empty($c)) {
+        if ($c === null or empty($c)) {
             $msgErro = $msgErro . "<FONT color=blue> Informe o coeficiente <b>c</b> (valor sozinho):<br></FONT>";
         }
         return $msgErro;
