@@ -10,7 +10,7 @@
     $delta = delta($a, $b, $c);
     $concavidade = concavidade($a, $b, $c);
 
-    $msg = "Coeficientes: $a, $b, $c <br> Delta: $delta <br> Solução: $equacao <br> Concavidade: $concavidade";
+    $msg = "Equação:$a X² + $b X + $c = 0  <br> Coeficientes: $a, $b, $c <br> Delta: $delta <br> Solução: $equacao <br> Concavidade: $concavidade";
     if ( empty($msgErro) ) {
         header("Location:formulario.php?msg=$msg");
 
